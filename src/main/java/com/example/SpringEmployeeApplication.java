@@ -20,6 +20,6 @@ public class SpringEmployeeApplication extends SpringBootServletInitializer{
 
 	 @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-         return application.sources(SpringbootEmployeeApplication.class);
+         return application.sources(SpringEmployeeApplication.class);
     }
 }
