@@ -9,10 +9,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @SpringBootApplication
 public class SpringEmployeeApplication extends SpringBootServletInitializer{
 
-	 @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-         return application.sources(SpringbootFoodApplication.class);
-    }
+
 
 
 	public static void main(String[] args) {
@@ -20,4 +17,9 @@ public class SpringEmployeeApplication extends SpringBootServletInitializer{
 		
 	}
 
+
+	 @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+         return application.sources(SpringbootFoodApplication.class);
+    }
 }
